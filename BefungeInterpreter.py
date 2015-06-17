@@ -1,5 +1,5 @@
-from lexer import lex
-from executer import execute
+from BefungeLexer import lex
+from BefungeExecuter import execute
 
 def interpret(script):
     return(execute(lex(script)))
