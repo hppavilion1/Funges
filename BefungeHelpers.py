@@ -1,4 +1,9 @@
+from getch import getch
+
 class BefungeError(Exception): #Base Error Class
+    pass
+
+class NotYetImplemented(Exception):
     pass
 
 def value2key(dictionary, desiredvalue): #Search a dict for a value and return the first key mapping to it
